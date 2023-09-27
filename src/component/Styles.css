@@ -1,0 +1,131 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #333; /* Set your preferred background color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Branding Text Styles */
+.nav_head {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* Text color */
+    text-decoration: none;
+}
+
+/* Navigation Links Styles */
+.nav_links {
+    display: flex;
+}
+
+a:-webkit-any-link {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin-right: 20px;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+a:-webkit-any-link:hover {
+    color: #ff9900; /* Hover color */
+}
+
+/* ServicesSection.css */
+.services-section {
+    display: grid;
+    grid-template-rows: auto auto; /* Two rows: first for heading, second for services */
+    grid-template-columns: 1fr 1fr 1fr; /* Three columns for services */
+    gap: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease; /* Add a transition for the hover effect */
+  }
+  
+  .service_heading {
+    text-align: center;
+    margin: 0 auto;
+    color: #666;
+    font-size: 36px;
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }  
+  
+  .service {
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+    color: #666;
+    text-align: center;
+    transition: transform 0.3s ease; /* Add a transition for the hover effect */
+  }
+  
+  .service:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+  }
+  
+  .service img {
+    max-width: 100px;
+    border-radius: 50%;
+    padding-bottom: 25px;
+  }
+  
+  .service-title {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+/* Footer Styles */
+
+.footer {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;        
+  }
+  
+  .footer{
+    display :flex;
+        min-height:22vh;
+        justify-content:space-between;
+        flex-direction:column;
+  }
+  /* Footer Heading Styles */
+  .footer-head {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Footer Text Styles */
+  .footer-text {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Footer Link Styles */
+  .footer-link {
+    color: #ff9900; /* Link color */
+    text-decoration: none;
+    margin-left: 5px; /* Adjust the spacing between text and link */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+
+  element.style {
+}
+
+  .footer-link:hover {
+    color: #fff; 
+  }
+  

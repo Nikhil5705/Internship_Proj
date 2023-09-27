@@ -1,0 +1,26 @@
+/* Style for the About Us section */
+#about {
+    background-color: #f9f9f9; /* Light gray background color */
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-container h2 {
+    font-size: 36px;
+    color: #333; /* Dark gray text color */
+    margin-bottom: 20px;
+  }
+  
+  .about-container p {
+    font-size: 18px;
+    color: #666; /* Gray text color */
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
