@@ -1,3 +1,9 @@
+Step 1 : Git clone https://github.com/Nikhil5705/Internship_Proj/tree/master
+
+step 2 : cd :directory
+
+step 3 : npm i 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
